@@ -1,0 +1,123 @@
+.container {
+  width: 100%
+}
+
+.container button {
+  border-style:solid;
+  border-width:.05rem;
+  border-radius:0;
+  display:inline-block;
+  vertical-align:middle;
+  font-weight:200;
+  font-size:1.3rem;
+  text-align:center;
+  transition:all .1s ease-in-out;
+  margin:0 0;
+  padding:.9rem 2rem;
+  border-color:#3B5998;
+  padding:15px;
+  width:15%;
+  color:#3B5998;
+  background-color:#fff;
+  text-transform:uppercase;
+  letter-spacing: 0.5px;
+  height: 100px;
+  cursor: pointer;
+}
+
+.container button:hover {
+  background: rgba(59,89,152, 1) !important;
+  color: white !important;
+  border-color:transparent;
+}
+
+.container textarea {
+  float: left;
+  font-family:'Open Sans'!important;
+  font-size: 20px;
+  font-weight:400;
+  display:block;
+  border-top:none;
+  border-right:none;
+  border-left:none;
+  border:1px #ccc solid!important;
+  height:100px;
+  padding:15px;
+  transition:border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  width:85%;
+  border-color:none!important;
+  box-sizing: border-box;
+}
+
+button:focus, textarea:focus{
+    outline:0
+}
+
+.container h4 {
+  text-transform: uppercase;
+  color: grey;
+  font-family:'Open Sans'!important;
+  font-size: 12px;
+  font-weight:500;
+}
+
+.container p {
+  font-family:'Open Sans'!important;
+  font-size: 16px;
+  font-weight:200;
+}
+
+.chatBox {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.chatList {
+  box-sizing: border-box;
+  overflow: scroll;
+  width: 50%;
+  margin: 0 auto;
+  height: 500px;
+  background: #eee;
+  border:1px #ccc solid!important;
+}
+
+.chatList > div {
+  margin: 10px 20px 10px 20px;
+  padding: 0px 40px;
+  background: white;
+}
+
+.connection {
+  margin: auto;
+  width: 50%;
+}
+
+.connection > button {
+  width: 50%;
+}
+
+.server {
+  width: 25%;
+  text-align: center;
+  background: #eee !important;
+  margin: auto !important;
+  clear: both;
+}
+
+.server > p {
+  font-size: 12px !important;
+}
+
+.Me {
+  padding-right: 25px !important;
+  text-align: right;
+  float: right;
+  clear: both;
+}
+
+.Echo {
+  padding-left: 25px !important;
+  float: left;
+  clear: both;
+}

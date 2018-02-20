@@ -1,6 +1,6 @@
 var WebSocketController ={
 
-  wsUri:  "ws://echo.websocket.org/",
+  wsUri:  "wss://echo.websocket.org/",
 
   connectWebSocket: function() {
     this.websocket = new WebSocket(this.wsUri);
